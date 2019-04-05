@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-   if self.end_with?(.) 
+   if self.end_with?('.') 
      true 
    else
      false
@@ -11,7 +11,7 @@ class String
 end
 
   def question?
-
+self.end_with?('?')
   end
 
   def exclamation?
